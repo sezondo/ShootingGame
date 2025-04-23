@@ -1,0 +1,41 @@
+# Unreal Engine folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+*.sln
+*.suo
+
+# Unreal Developer folders
+Content/Developers/
+
+# Build artifacts
+*.pdb
+*.ipdb
+*.obj
+*.exe
+*.dll
+*.lib
+*.app
+*.dSYM/
+
+# Logs and temp files
+*.log
+*.tmp
+*.cache
+*.bak
+
+# Mac specific
+.DS_Store
+
+# Git LFS managed binary files (these are still tracked but large)
+*.uasset
+*.umap
+*.fbx
+*.png
+*.jpg
+*.wav
+*.mp3
+*.mp4
