@@ -1,41 +1,44 @@
-# Unreal Engine folders
-Binaries/
-DerivedDataCache/
-Intermediate/
-Saved/
-.vscode/
-.vs/
-*.sln
+# Ignore intermediate, saved, and build files
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+/Build/
+
+# Ignore user settings
 *.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
+.idea/
 
-# Unreal Developer folders
-Content/Developers/
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
 
-# Build artifacts
-*.pdb
-*.ipdb
-*.obj
+# Ignore compiled files
 *.exe
 *.dll
 *.lib
 *.app
-*.dSYM/
+*.pdb
 
-# Logs and temp files
+# Ignore visual studio files
+*.vcxproj*
+*.opensdf
+*.sdf
+*.ipch
+*.aps
+
+# Ignore Unreal auto-generated files
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
 *.log
-*.tmp
-*.cache
-*.bak
+*.tlog
 
-# Mac specific
-.DS_Store
-
-# Git LFS managed binary files (these are still tracked but large)
-*.uasset
-*.umap
-*.fbx
-*.png
-*.jpg
-*.wav
-*.mp3
-*.mp4
+# LFS-managed binary files (tracked, not ignored)
+# NOTE: These are tracked with Git LFS
+!Content/
+!Content/**/*
